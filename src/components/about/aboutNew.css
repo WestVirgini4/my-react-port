@@ -357,6 +357,17 @@
   transform: translateX(8px);
 }
 
+/* Dark theme CV button */
+[data-theme="dark"] .cv-button {
+  background: linear-gradient(135deg, var(--container-color), #f0f0f0);
+  color: var(--title-color);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .cv-button:hover {
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.2);
+}
+
 /* Timeline Section */
 .about__timeline {
   margin-top: 5rem;
