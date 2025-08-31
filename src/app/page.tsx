@@ -10,6 +10,7 @@ import Project from '../components/project/Project';
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
 import ScrollUp from '../components/scrollup/ScrollUp';
+import ScrollAnimation from '../components/ScrollAnimation';
 
 export default function HomePage() {
   return (
@@ -25,6 +26,7 @@ export default function HomePage() {
     </main>
     <Footer />
     <ScrollUp />
+    <ScrollAnimation />
     </>
   )
 }
