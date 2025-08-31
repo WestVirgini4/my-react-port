@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 import "./aboutNew.css";
 import Info from "./Info";
 // Use string paths for Next.js static assets
-const AboutImg = "/assets/IMG_4972.JPG";
-const CV = "/assets/korramis.pdf";
+const AboutImg = "/my-react-port/assets/IMG_4972.JPG";
+const CV = "/my-react-port/assets/korramis.pdf";
 
 const About = () => {
   const [isImageLoaded, setIsImageLoaded] = useState(false);

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './qualificationNew.css';
 
 // Use string path for Next.js static assets
-const Certification = "/assets/Certification.pdf";
+const Certification = "/my-react-port/assets/Certification.pdf";
 
 const Qualification = () => {
     const [activeTab, setActiveTab] = useState<'education' | 'experience'>('education');

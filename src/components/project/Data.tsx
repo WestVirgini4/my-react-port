@@ -1,10 +1,10 @@
 // Import images as string paths for Next.js
-const API = "/assets/API.jpg";
-const McLaren = "/assets/McLarenMockup.jpg";
-const Moviestore = "/assets/Moviestore.jpg";
-const TravelTrip = "/assets/Travel-Trip.jpg";
-const Coffeeshop = "/assets/Coffeeshop.jpg";
-const MusicPlayer = "/assets/musicplayer.jpg";
+const API = "/my-react-port/assets/API.jpg";
+const McLaren = "/my-react-port/assets/McLarenMockup.jpg";
+const Moviestore = "/my-react-port/assets/Moviestore.jpg";
+const TravelTrip = "/my-react-port/assets/Travel-Trip.jpg";
+const Coffeeshop = "/my-react-port/assets/Coffeeshop.jpg";
+const MusicPlayer = "/my-react-port/assets/musicplayer.jpg";
 
 
 export const projectsData = [
